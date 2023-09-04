@@ -1,9 +1,11 @@
 name: Code Review
+permissions:
+  contents: read
+  pull-requests: write
+
 on:
   pull_request:
-    types:
-      - opened
-      - synchronize
+    types: [opened, synchronize]
 
 jobs:
   sun-ai-code-reviewer:
