@@ -15,4 +15,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || vars.OPENAI_API_KEY }}
-          GITHUB_ACTIONS_BOT_AVATAR: "https://res.cloudinary.com/ddcysbn3u/image/upload/v1694750509/static/logo_lfmaxy.png"
